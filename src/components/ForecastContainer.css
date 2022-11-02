@@ -1,0 +1,56 @@
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(210, 191, 219);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > h2 {
+    font-style: italic;
+}
+
+.details__units {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 13rem;
+}
+
+.details__city {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.details__city > input {
+  margin-bottom: 25px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
